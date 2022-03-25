@@ -371,8 +371,13 @@ img {
     width: 70%;
 }
 
+.skills__php {
+    width: 80%;
+}
+
 .skills__img {
     border-radius: .5rem;
+    height: 20rem;
 }
 
 
