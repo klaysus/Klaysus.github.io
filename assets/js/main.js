@@ -33,9 +33,9 @@ function scrollActive(){
         sectionId = current.getAttribute('id')
 
         if(scrollY > sectionTop && scrollY <= sectionTop + sectionHeight){
-            document.querySelector('.nav__menu a[href*=' + sectionId + ']').classList.add('active')
+            document.querySelector('.nav_menu a[href*=' + sectionId + ']').classList.add('active')
         }else{
-            document.querySelector('.nav__menu a[href*=' + sectionId + ']').classList.remove('active')
+            document.querySelector('.nav_menu a[href*=' + sectionId + ']').classList.remove('active')
         }
     })
 }
@@ -50,7 +50,7 @@ const sr = ScrollReveal({
 //     reset: true
 });
 
-sr.reveal('.home__data, .about__img, .skills__subtitle, .skills__text',{}); 
-sr.reveal('.home__img, .about__subtitle, .about__text, .skills__img',{delay: 400}); 
-sr.reveal('.home__social-icon',{ interval: 200}); 
-sr.reveal('.skills__data, .work__img, .contact__input',{interval: 200}); 
+sr.reveal('.data_home, .about_img, .skills_subtitle, .skills_text',{}); 
+sr.reveal('.img_home, .about_subtitle, .about_text, .skills_img',{delay: 400}); 
+sr.reveal('.social_home-icon',{ interval: 200}); 
+sr.reveal('.skills_data, .work_img, .contact_input',{interval: 200}); 
